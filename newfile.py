@@ -124,7 +124,7 @@ for P in file.readlines():
 	    'payment_method': id,
 	    'expected_payment_method_type': 'card',
 	    'use_stripe_sdk': 'true',
-	    'key': 'pk_live_wGV2ziRFq7KJLNaVUAJgrzDf',
+	    'key': 'pk_live_51HE3egFmM52WOkSoBn3BPTMWMkvQbxQ2XaGYHCSNYNfDM8rpeGDb7VvqpmoPyWwQFKXnO9KBpJq3nEi0gMOoRjW2001jRjIO38',
 	    'client_secret': clientSecret,
 	}
 	ids=clientSecret.split('_secret_')[0]
